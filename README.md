@@ -1,10 +1,16 @@
-# Etude des données liées aux accidents aériens en fonction de la compagnie  
+# Etude des données liées aux variations de température de 2016 à 2023
+**Variations des température dans chaque région française: Comprendre les tendances climatiques depuis 2016**
 Cette base de donnée contient les attributs suivants:  
-**airline**: compagnie aérienne  
-**avail_seat_km_per_week** : Cette mesure représente le nombre total de kilomètres parcourus par tous les sièges disponibles sur les vols exploités par la compagnie   aérienne au cours d'une semaine donnée. En d'autres termes, cela indique la quantité totale de sièges disponibles pour les passagers  multipliée par la distance totale parcourue par ces sièges au cours d'une semaine. C'est une mesure importante pour évaluer la capacité  opérationnelle et la performance d'une compagnie aérienne.  
-**incidents_85_99** : Nombre total d'incidents entre 1985-1999  
-**fatal_accidents_85_99** : Nombre total d'incidents fatals entre 1985-1999  
-**fatalities_85_99** : Nombre total de décès entre 1985-1999  
-**incidents_00_14** : Nombre total d'incidents entre 2000-2014  
-**fatal_accidents_00_14** : Nombre total d'incidents fatals entre 2000-2014  
-**fatalities_00_14** : Nombre total de décès entre 2000-2014  
+**ID**: Un identifiant unique pour chaque enregistrement, permettant de suivre et d'organiser les données.  
+**Date** : La date de l'enregistrement, qui nous permettra de reconstituer les tendances météorologiques au fil du temps.
+**Code INSEE de la Région** : Un code INSEE spécifique à chaque région, nous permettant d'associer les données à des régions 
+    géographiques spécifiques. 
+**Région** : Le nom de la région géographique associée à chaque enregistrement.
+**Température Minimale (Tmin)** : La température minimale enregistrée pendant la journée, mesurée en degrés Celsius.
+**Température Maximale (Tmax)** : La température maximale enregistrée pendant la journée, également mesurée en degrés Celsius.
+**Température Moyenne (Tmoy)** : La température moyenne calculée à partir des valeurs de Tmin et Tmax. 
+
+# Objectifs du Projet
+ - Identifier les tendances climatiques à long terme dans différentes régions.
+ - Étudier les variations saisonnières et les cycles climatiques.
+ - Évaluer les extrêmes climatiques, tels que les vagues de chaleur et les périodes de froid intense.
