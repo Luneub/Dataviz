@@ -22,6 +22,10 @@ st.sidebar.title('Menu')
 section = st.sidebar.radio('Sélectionnez la section', ['Introduction', 'Généralités', 'Température max par région', 
                                                        'Cycles mensuels','Variabilité climatique','Anomalies de température',
                                                       'Jours de gel', 'Jours de canicule','Conclusion'])
+st.sidebar.markdown("[Mon Github](https://github.com/Luneub/Dataviz)")
+st.sidebar.markdown("[Mon Linkedin](https://www.linkedin.com/in/ludwig-neuberth-1537101b7/)")
+st.sidebar.write('Projet réalisé par Ludwig Neuberth / M1 / EFREI Paris')
+
 if section == 'Introduction':
     st.header('Variations des température dans chaque région française: Comprendre les tendances climatiques depuis 2016')
     st.write("""
@@ -132,7 +136,7 @@ elif section == 'Généralités':
     ax.bar(mean_tmax_by_year_region['region'], mean_tmax_by_year_region['tmax'], color=palette)
     ax.set_xlabel('Région')
     ax.set_ylabel('Moyenne de Tmax')
-    ax.set_title('Moyenne de Tmin par Région')
+    ax.set_title('Moyenne de Tmax par Région')
     ax.tick_params(axis='x', rotation=80, labelsize=12)  # Pour faire pivoter les étiquettes des régions si nécessaire
     
     # Affichage de l'histogramme dans Streamlit
@@ -572,3 +576,4 @@ La fréquence des jours de canicule est essentielle pour la santé publique, l'a
 En résumé, cette analyse de données météorologiques offre un aperçu détaillé des températures en France depuis 2016 et des variations climatiques qui ont eu lieu au cours de cette période. Ces informations sont essentielles pour la planification, la prise de décision et l'adaptation aux changements climatiques, tout en démontrant l'impact significatif des événements mondiaux sur les tendances locales.
     
     """)
+    
