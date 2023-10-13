@@ -13,3 +13,7 @@ Cette base de donnée contient les attributs suivants:
  - Identifier les tendances climatiques à long terme dans différentes régions.
  - Étudier les variations saisonnières et les cycles climatiques.
  - Évaluer les extrêmes climatiques, tels que les vagues de chaleur et les périodes de froid intense.
+
+
+Le document my_meteo_app.py est le code qui sera excuter sur Streamlit.  
+Le document analyse_meteo.ipynb est le code entier que j'ai effectué afin de créer les différents éléments de cette visuaisation.
