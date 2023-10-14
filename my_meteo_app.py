@@ -576,4 +576,10 @@ La fréquence des jours de canicule est essentielle pour la santé publique, l'a
 En résumé, cette analyse de données météorologiques offre un aperçu détaillé des températures en France depuis 2016 et des variations climatiques qui ont eu lieu au cours de cette période. Ces informations sont essentielles pour la planification, la prise de décision et l'adaptation aux changements climatiques, tout en démontrant l'impact significatif des événements mondiaux sur les tendances locales.
     
     """)
+    st.header("Possibilités d'améliorations")
+    st.write(""" Dans l'ensemble je suis très satisfait du projet que j'ai réalisé. En effet, la base de 
+    donnée était très interressante à utiliser et je pense avoir bien mis en avant les principales informations 
+    disponibles dans ce dataset.
+    Cependant, l'une des persperctives d'amélioration pourrait être l'ajout de graphiques représentant la France 
+    afin de mieux visualiser les régions et leurs températures.""")
     
